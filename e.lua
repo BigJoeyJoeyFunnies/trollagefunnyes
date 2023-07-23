@@ -1,14 +1,14 @@
 local textChatService = game:GetService("TextChatService")
 
 local whitelisted = {
-    {name = "SnoopyCalledMeFake", tags = {4,1}},
+    {name = "SnoopyCalledMeFake", tags = {4}},
 }
 	
 local chatTags = {
     [1] = {name = "STAR", color = Color3.fromRGB(255, 0, 0)},
     [2] = {name = "Kai", color = Color3.fromRGB(113, 3, 255)},
     [3] = {name = "VAPE PRIVATE", color = Color3.fromRGB(255, 76.5, 76.5)},
-    [4] = {name = "0PRIME", color = Color3.fromRGB(255, 0, 0)},
+    [4] = {name = "TEST", color = Color3.fromRGB(255,160,122)},
     [5] = {name = "BOOSTER", color = Color3.fromRGB(244, 127, 255)},
 }
 
